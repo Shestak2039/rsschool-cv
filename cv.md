@@ -36,3 +36,7 @@ var uniqueInOrder = function(iterable) {
 ```
 
 ---
+
+6. [Piskel-clone](https://shestak2039.github.io/piskel-clone/), [chat](https://rss-ws-chat.herokuapp.com/)
+7. Lectures on the basics of algorithms and programming in university, basics HTML and CSS on site code.mu and Javascript on site learn.javascript.ru
+8. A2
