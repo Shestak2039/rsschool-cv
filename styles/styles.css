@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Exo 2", "Calibri", sans-serif;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+
+  box-shadow: 0 0 10px black;
+}
+
+.header {
+  padding: 30px 0;
+
+  background: rgb(50,50,50);
+  background: linear-gradient(90deg, rgba(50,50,50,1) 0%, rgba(130,130,130,1) 100%);
+}
+
+.container-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 900px;
+  margin: 0 auto;
+}
+
+.photo {
+  border-radius: 20px;
+  box-shadow: 0 0 5px white;
+}
+
+.name {
+  color: white;
+  text-shadow: 0 0 5px black;
+
+  font-size: 40px;
+}
+
+.menu {
+  list-style: none;
+
+  font-size: 18px;
+}
+
+.menu__item {
+  position: relative;
+
+  padding-top: 10px;
+}
+
+.menu__item_link:link,
+.menu__item_link:visited {
+  display: block;
+
+  transition: all .3s linear;
+  text-decoration: none;
+
+  color: #C8C8C8;
+}
+
+.menu__item_link:hover {
+  transform: scale(1.4) rotate(-10deg);
+
+  color: #0F47C0;
+}
+
+.menu__item_icon {
+  font-size: 150%;
+}
+
+.main {
+  padding: 10px;
+
+  background: rgb(130,130,130);
+  background: linear-gradient(90deg, rgba(130,130,130,1) 0%, rgba(50,50,50,1) 100%);
+}
+
+.title {
+  margin-right: 80px;
+  margin-bottom: 5px;
+
+  text-align: right;
+
+  color: white;
+  border-bottom: 1px solid rgb(255, 255, 255);
+
+  font-size: 36px;
+}
+
+.text {
+  width: 80%;
+  margin-bottom: 40px;
+  margin-left: 80px;
+
+  color: rgb(212, 211, 211);
+}
+
+.projects__project {
+  position: relative;
+
+  display: inline-block;
+  overflow: hidden;
+
+  margin-bottom: 40px;
+  margin-left: 80px;
+}
+
+.projects__project_image {
+  display: block;
+
+  width: 300px;
+  height: 150px;
+
+  transition: all 1s;
+}
+
+.projects__project:hover .projects__project_image {
+  transform: scale(1.2);
+}
+
+.projects__project-chat:after,
+.projects__project-piskel:after {
+  position: absolute;
+  top: 40px;
+
+  opacity: .8;
+
+  font-size: 50px;
+}
+
+.projects__project-piskel:after {
+  left: 9px;
+
+  content: "Piskel-clone";
+
+  color: white;
+}
+
+.projects__project-chat:after {
+  left: 95px;
+
+  content: "Chat";
+
+  color: black;
+}
+
+.footer {
+  padding-top: 30px;
+  padding-bottom: 10px;
+
+  text-align: center;
+
+  color: white;
+  background: rgb(50,50,50);
+  background: linear-gradient(90deg, rgba(50,50,50,1) 0%, rgba(130,130,130,1) 100%);
+}
