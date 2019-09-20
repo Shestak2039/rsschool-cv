@@ -76,3 +76,68 @@
 .menu__item_icon {
     font-size: 150%;
 }
+
+.main {
+    padding: 10px;
+
+    background: rgb(130,130,130);
+    background: linear-gradient(90deg, rgba(130,130,130,1) 0%, rgba(50,50,50,1) 100%);
+}
+
+.title {
+    font-size: 36px;
+    text-align: right;
+
+    margin-bottom: 5px;
+    margin-right: 80px;
+
+    color: white;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+.text {
+    width: 80%;
+    margin-left: 80px;
+    margin-bottom: 40px;
+
+    color: rgb(212, 211, 211);
+}
+
+.projects__project {
+    margin-left: 80px;
+    margin-bottom: 40px;
+
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+}
+
+.projects__project_image {
+    transition: 1s;
+    display: block;
+}
+
+.projects__project:hover .projects__project_image{
+    transform: scale(1.2);
+}
+
+.projects__project-chat:after,
+.projects__project-piskel:after {
+    position: absolute;
+    font-size: 50px;
+    top: 40px;
+    opacity: .8;
+}
+
+.projects__project-piskel:after {
+    content: 'Piskel-clone';
+    color: white;
+    left: 9px;
+    
+}
+
+.projects__project-chat:after {
+    content: 'Chat';
+    color: black;
+    left: 95px;
+}
